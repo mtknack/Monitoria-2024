@@ -11,5 +11,5 @@ void main(){
     printf("Digite o segundo numero: ");
     scanf("%f", &n2);
 
-    printf("Numero 1 e: %f e numnero 2 e: %f\n", n1, n2);
+    printf("Numero 1 e: %f e numero 2 e: %f\n", n1, n2);
 }
