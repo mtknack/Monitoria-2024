@@ -16,5 +16,5 @@ void main(){
 
     valor = valor * conversao;
 
-    printf("Valor convertido e de R$: %f \n", valor);
+    printf("Valor convertido e de R$: %f\n", valor);
 }

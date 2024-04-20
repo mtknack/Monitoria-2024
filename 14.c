@@ -10,10 +10,9 @@ void main(){
     printf("Digite a base do retangulo: ");
     scanf("%f", &base);
 
-    printf ("Digite a altura do retangulo: ");
+    printf("Digite a altura do retangulo: ");
     scanf("%f", &altura);
 
-    printf("O perimetro e de : %f m\n", 2 * (base + altura));
-
-    printf("O area e de : %f m2", base * altura);
+    printf("Perimetro: %fm\n", 2 * (base + altura));
+    printf("Area: %fm2 \n", base * altura);
 }
