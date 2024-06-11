@@ -8,15 +8,15 @@ int main(void) {
   int i, situacao[15];
   float notap1[15], notap2[15], media[15];
 
-  for (i=1; i <= 15; i++) {
+  for (i=0; i < 15; i++) {
 
     do {
-      printf("Digite a primeira nota do aluno %d: ", i);
+      printf("Digite a primeira nota do aluno %d: ", i+1);
       scanf("%f", &notap1[i]);
     } while (notap1[i] < 0 || notap1[i] > 10);
     printf("Sucesso ao registrar!\n");
     do {
-      printf("Digite a segunda nota do aluno %d: ", i);
+      printf("Digite a segunda nota do aluno %d: ", i+1);
       scanf("%f", &notap2[i]);
     } while (notap2[i] < 0 || notap2[i] > 10);
     printf("Sucesso ao registrar!\n\n");
