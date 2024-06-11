@@ -5,7 +5,7 @@
 #define N 100
 
 int main(void) {
-  int vetor[5];
+  int vetor[N];
   int i, maior, menor, soma = 0, pares = 0;
   float media, percentualPares;
   for (i = 0; i < N; i++){
