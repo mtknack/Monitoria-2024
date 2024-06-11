@@ -2,10 +2,10 @@
 
 #include <stdio.h>
 
-#define N 5
+#define N 100
 
 int main(void) {
-  int matricula[15], i, j, auxMat;
+  int matricula[N], i, j, auxMat;
   float media[N], auxMedia;
 
   for (i = 0; i < N; i++) {
