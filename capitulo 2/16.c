@@ -3,28 +3,39 @@
 // a sua categoria segundo a tabela a seguir
 #include <stdio.h>
 
-void main(){
+void main()
+{
 
     int idade;
 
     printf("Digite a idade do nadador: ");
     scanf("%d", &idade);
 
-    
-    if(idade >= 5 && idade <= 7){
-        printf("Infantil A: 5 - 7 anos");
+    if (idade <= 4)
+    {
+        printf("Idade não permitida");
     }
-    else if(idade >= 8 && idade <= 10){
-        printf("Infantil B: 8 - 10 anos");
+    else
+    {
+        if (idade <= 7)
+        {
+            printf("Infantil A: 5 - 7 anos");
+        }
+        else if (idade <= 10)
+        {
+            printf("Infantil B: 8 - 10 anos");
+        }
+        else if (idade <= 13)
+        {
+            printf("Juvenil A: 11 - 13 anos");
+        }
+        else if (idade <= 17)
+        {
+            printf("Juvenil B: 14 - 17 anos");
+        }
+        else
+        {
+            printf("Senior: maiores de 18 anos");
+        }
     }
-    else if(idade >= 11 && idade <= 13){
-        printf("Juvenil A: 11 - 13 anos");
-    }
-    else if(idade >= 14 && idade <= 17){
-        printf("Juvenil B: 14 - 17 anos");
-    }
-    else{
-        printf("Senior: maiores de 18 anos");
-    }
-    
 }
