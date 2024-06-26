@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void ordenacao(int *vetor){
+void ordenacao(int vetor[10]){
   int i, j, crescente = 1, decrescente = 1;
   
   for (int i = 0; i < 9; i++) {
