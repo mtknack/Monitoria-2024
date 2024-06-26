@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 void ordenacao(int vetor[10]){
-  int i, j, crescente = 1, decrescente = 1;
+  int i, crescente = 1, decrescente = 1; 
+     // inicializadas com o valor 1 assumindo que o vetor está ordenado inicialmente.
   
-  for (int i = 0; i < 9; i++) {
+  for (int i = 0; i < 10; i++) {
     if (vetor[i] > vetor[i + 1]) {
       crescente = 0;
     }
@@ -30,8 +31,3 @@ int main(void) {
     printf("-> ");
     scanf("%d", &vetor[i]);
   }
-  
-  ordenacao(vetor);
-  
-  return 0;
-}
